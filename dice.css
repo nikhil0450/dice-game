@@ -1,0 +1,72 @@
+html, body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.header{
+    font-size: 50px;
+    color: #04c52e;
+ > h4 {
+    text-align: center;
+ }
+}
+
+.Players{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.message{
+    text-align: center;
+}
+.First-player{
+   display: flex;
+   height: 200px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+.Score1{
+    font-size: 50px;
+}
+.Score2{
+    font-size: 50px;
+}
+.roll1{
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+
+}
+.Second-player{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .roll2{
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+}
+ .resetbtn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    
+ }
+ .reset{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+    
+}
+.reset:hover{
+     background-color: #04c52e;
+ }

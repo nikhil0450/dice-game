@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dice.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Let's play Dice</title>
+</head>
+<body>
+    <div class="header">
+        <h4>Dice Game</h4>
+        </div>
+    </div>
+        <h3 id="message" class="message">Player-1 Turn</h3>
+    <div class="Players">
+        <div class="First-player">
+            <div>
+                <span class="Player1" id="Player1" >Player:1</span>
+            </div>
+            <div>
+                <strong class="Score1" id="Score1">0</strong>
+            </div>
+            <div>
+                <button class="roll1" id="roll1" type="button" >Roll Now</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/Dice-1.png" alt="Dice" class="img-dice">
+        </div>
+        <div class="Second-player">
+            <div>
+                <span class="Player2" id="Player2">Player:2</span>
+            </div>
+            <div>
+                <strong class="Score2" id="Score2">0</strong>
+            </div>
+            <div>
+                <button class="roll2" id="roll2" type="button" disabled = "true">Roll Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="resetbtn">
+        <button class="reset" id="reset" type="button">Reset</button>
+    </div>
+    <script src="Dice.js"></script>
+</body>
+</html>
